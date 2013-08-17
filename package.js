@@ -8,5 +8,5 @@ Package.on_use(function (api) {
     api.use('bootstrap', 'client');
     api.use('jquery', 'client');
 
-    api.add_files('.npm/node_modules/bootbox/bootbox.min.js', 'client');
+    api.add_files('.npm/package/node_modules/bootbox/bootbox.min.js', 'client');
 });
