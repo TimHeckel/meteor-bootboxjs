@@ -1,0 +1,19 @@
+Package.describe({
+    summary: "Programmatic dialog boxes using Twitter's bootstrap modals"
+});
+
+Package.on_use(function (api) {
+    api.use('bootstrap', 'client');
+    api.use('jquery', 'client');
+<<<<<<< HEAD
+    api.add_files('lib/bootbox.js', "client");
+});
+||||||| merged common ancestors
+
+    api.add_files('.npm/node_modules/bootbox/bootbox.min.js', 'client');
+});
+=======
+
+    api.add_files('.npm/package/node_modules/bootbox/bootbox.min.js', 'client');
+});
+>>>>>>> 0719804108be5dd014af359ed244893596287a7b
