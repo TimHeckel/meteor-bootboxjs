@@ -3,7 +3,6 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-    api.use('bootstrap', 'client');
     api.use('jquery', 'client');
     api.add_files('lib/bootbox.js', "client");
 });
