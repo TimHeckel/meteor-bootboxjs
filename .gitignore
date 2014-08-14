@@ -1,3 +1,7 @@
+# Not helpful to have this file while 0.9 is still in RCs.
+# Plus this package isn't going to care anyway.
+versions.json
+
 .npm
 smart.lock
 

@@ -1,8 +1,0 @@
-{
-    "name": "bootboxjs",
-    "description": "Programmatic dialog boxes using Twitter Bootstrap modals",
-    "homepage": "https://github.com/TimHeckel/meteor-bootboxjs",
-    "author": "Tim Heckel  (http://timheckel.com)",
-    "version": "4.2.1-master.1",
-    "git": "https://github.com/TimHeckel/meteor-bootboxjs.git"
-}
