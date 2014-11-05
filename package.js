@@ -8,5 +8,8 @@ Package.onUse(function (api) {
   api.versionsFrom("METEOR-CORE@0.9.0-atm");
 
   api.use('jquery', 'client');
+  api.use('ui', 'client');
+
   api.add_files('lib/bootbox.js', "client");
+  api.add_files('meteor-addons.js', "client");
 });
