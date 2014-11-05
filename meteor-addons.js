@@ -1,7 +1,7 @@
 // Meteor specific addons to the bootbox.js object
 bootbox.templateDialog = function(options) {
   var div = document.createElement("div");
-  UI.insert(UI.renderWithData(kind, data), div);
+  UI.insert(UI.renderWithData(options.template, options.data), div);
   options.message = div;
 
   var result = bootbox.dialog(options);
