@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Programmatic dialog boxes using Twitter's bootstrap modals",
-  version: "4.3.0",
+  version: "4.4.0",
   git: "https://github.com/TimHeckel/meteor-bootboxjs.git"
 });
 
